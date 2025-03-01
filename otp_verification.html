@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Verification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="otp-box">
+        <h2>OTP Verification</h2>
+        
+        <p>Enter the 4-digit OTP sent to your number.</p>
+        
+        <input type="text" id="otp" placeholder="Enter OTP" maxlength="4">
+        <button class="verify-btn" onclick="verifyOTP()">Verify</button>
+
+        <p id="otp-message"></p>
+
+        <a href="money_transfer.html" class="back-btn">Back to Transfer</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

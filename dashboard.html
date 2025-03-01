@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Commercial Bank</title>
+    <link rel="stylesheet" href="style.css"> <!-- CSS লিংক -->
+</head>
+<body>
+    <!-- হেডার সেকশন -->
+    <header>
+        <h1>Commercial Bank Of World</h1>
+    </header>
+
+    <!-- প্রোফাইল সেকশন -->
+    <div class="profile-section">
+        <img src="images/user.png" alt="Profile Picture" class="profile-pic">
+        <p><strong>Name:</strong> Zabiullah</p>
+        <p><strong>Number:</strong> +9660596893595</p>
+        <p><strong>Country:</strong> Saudi Arabia</p>
+        <p><strong>Passport/ID:</strong> 250514688</p>
+    </div>
+
+    <!-- ব্যালেন্স সেকশন -->
+    <div class="balance-section">
+        <h2>Available Balance</h2>
+        <p class="balance">$25,257</p>
+        <<button class="withdraw-btn" onclick="window.location.href='money_transfer.html';">Withdraw</button>
+    </div>
+
+    <!-- ট্রান্সাকশন হিস্ট্রি -->
+    <div class="transaction-section">
+        <h2>Transaction History</h2>
+        <table>
+            <tr>
+                <th>Amount</th>
+                <th>Client</th>
+                <th>Details</th>
+            </tr>
+            <tr><td>$1,200</td><td>Luke</td><td>Incoming</td></tr>
+            <tr><td>$300</td><td>Chris</td><td>Outgoing</td></tr>
+            <tr><td>$600</td><td>Robert</td><td>Incoming</td></tr>
+            <tr><td>$930</td><td>Evanna</td><td>Incoming</td></tr>
+            <tr><td>$30</td><td>Bruce</td><td>Outgoing</td></tr>
+            <tr><td>$11,833</td><td>David</td><td>Incoming</td></tr>
+            <tr><td>$120</td><td>Remo</td><td>Incoming</td></tr>
+            <tr><td>$90</td><td>Nancy</td><td>Outgoing</td></tr>
+        </table>
+    </div>
+
+    <!-- পেমেন্ট মেথড -->
+    <div class="payment-method">
+        <h2>Payment Method</h2>
+        <p>Visa | PayPal | MasterCard | Bank Transfer</p>
+    </div>
+
+</body>
+</html>

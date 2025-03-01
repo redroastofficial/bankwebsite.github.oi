@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Transfer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="transfer-box">
+        <h2>Money Transfer</h2>
+        
+        <label for="bank">--Select Your Bank--:</label>
+        <select id="bank">
+                <option value="" disabled selected>Select Your Bank</option>
+                <option value="Bangkok Bank">Bangkok Bank</option>
+                <option value="ATM Krung Thai Bank">ATM Krung Thai Bank</option>
+                <option value="CIMB Thai Bank">CIMB Thai Bank</option>
+                <option value="Bank Of Ayudhya">Bank Of Ayudhya</option>
+                <option value="Al Rajhi Bank">Al Rajhi Bank</option>
+                <option value="Saudi National Bank (SNB)">Saudi National Bank (SNB)</option>
+                <option value="Riyad Bank">Riyad Bank</option>
+                <option value="Saudi Awwal Bank (SAB)">Saudi Awwal Bank (SAB)</option>
+                <option value="Alinma Bank">Alinma Bank</option>
+                <option value="Bank AlJazira">Bank AlJazira</option>
+                <option value="Bank Albilad">Bank Albilad</option>
+                <option value="Bank Asia PLC">Bank Asia PLC</option>
+                <option value="Brac Bank Limited">Brac Bank Limited</option>
+                <option value="Agrani Bank">Agrani Bank</option>
+                <option value="Dutch Bangla Bank Limited">Dutch Bangla Bank Limited</option>
+                <option value="Sonali Bank (PLC)">Sonali Bank (PLC)</option>
+                <option value="AB Bank (PLC)">AB Bank (PLC)</option>
+                <option value="Eastern Bank Limited">Eastern Bank Limited</option>
+                <option value="Commercial Bank Of Ceylon">Commercial Bank Of Ceylon</option>
+                <option value="CitiBank NA">CitiBank NA</option>
+            </select>
+            
+        </select>
+
+        <label for="account">Type Bank A/C:</label>
+        <input type="text" id="account" placeholder="Enter Account Number">
+
+        <label for="amount">Type Amount:</label>
+        <input type="number" id="amount" placeholder="Enter Amount">
+
+        <button class="transfer-btn" onclick="transferMoney()">Transfer</button>
+
+        <p id="message"></p>
+
+        <a href="dashboard.html" class="back-btn">Back to Dashboard</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
